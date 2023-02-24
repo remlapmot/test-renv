@@ -18,22 +18,12 @@ Type 'q()' to quit R.
 * Project '/mnt/c/users/tom/documents/github/test-renv' loaded. [renv 0.16.0]
 [Previously saved workspace restored]
 
+> if (!requireNamespace('renv')) install.packages('renv')
 > renv::init(bare = TRUE)
 * Project '/mnt/c/users/tom/documents/github/test-renv' loaded. [renv 0.16.0]
 > renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
-* Querying repositories for available source packages ... Done!
-Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/butcher_0.1.5.tar.gz' ...
-	OK [downloaded 176.1 Kb in 1.9 secs]
-Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/lobstr_1.1.1.tar.gz' ...
-	OK [downloaded 796.7 Kb in 2.5 secs]
-Installing lobstr [1.1.1] ...
-	OK [installed binary]
-Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.48 seconds]
 Installing butcher [0.1.5] ...
-	OK [installed binary]
-Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.55 seconds]
+	OK [linked cache]
 > renv::snapshot(type = 'all', confirm = FALSE)
 * Lockfile written to '/mnt/c/users/tom/documents/github/test-renv/renv.lock'.
 > renv::remove('butcher')
@@ -63,18 +53,20 @@ The following package(s) will be updated:
 
 * Querying repositories for available source packages ... Done!
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/butcher/butcher_0.1.5.tar.gz' ...
-	OK [downloaded 283.4 Kb in 0.1 secs]
+	OK [downloaded 283.4 Kb in 0.2 secs]
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/lobstr/lobstr_1.1.1.tar.gz' ...
-	OK [file is up to date]
+	OK [downloaded 52.1 Kb in 0.1 secs]
 Installing lobstr [1.1.1] ...
 	OK [built from source]
 Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.44 seconds]
+	OK [moved to cache in 0.43 seconds]
 Installing butcher [0.1.5] ...
 	OK [built from source]
 Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.67 seconds]
+	OK [moved to cache in 0.75 seconds]
+> library(butcher)
+> library(lobstr)
 > 
 > proc.time()
    user  system elapsed 
- 16.266  11.185  68.750 
+ 16.048  11.252  61.368 
