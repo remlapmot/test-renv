@@ -15,10 +15,10 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-* Project '/mnt/c/users/tom/documents/github/test-renv' loaded. [renv 0.16.0]
 [Previously saved workspace restored]
 
 > if (!requireNamespace('renv')) install.packages('renv')
+Loading required namespace: renv
 > renv::init(bare = TRUE)
 * Project '/mnt/c/users/tom/documents/github/test-renv' loaded. [renv 0.16.0]
 > renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
@@ -47,26 +47,26 @@ The following packages will be purged from the cache:
 > renv::restore(prompt = FALSE)
 The following package(s) will be updated:
 
-# RSPM ===============================
+# CRAN ===============================
 - butcher   [* -> 0.1.5]
 - lobstr    [* -> 1.1.1]
 
 * Querying repositories for available source packages ... Done!
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/butcher/butcher_0.1.5.tar.gz' ...
-	OK [downloaded 283.4 Kb in 0.2 secs]
+	OK [file is up to date]
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/lobstr/lobstr_1.1.1.tar.gz' ...
-	OK [downloaded 52.1 Kb in 0.1 secs]
+	OK [file is up to date]
 Installing lobstr [1.1.1] ...
 	OK [built from source]
 Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.43 seconds]
+	OK [moved to cache in 0.47 seconds]
 Installing butcher [0.1.5] ...
 	OK [built from source]
 Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.75 seconds]
+	OK [moved to cache in 0.52 seconds]
 > library(butcher)
 > library(lobstr)
 > 
 > proc.time()
    user  system elapsed 
- 16.048  11.252  61.368 
+ 15.742  11.252  60.262 
