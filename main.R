@@ -1,0 +1,8 @@
+renv::init(bare = TRUE)
+renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
+renv::snapshot(type = 'all', confirm = FALSE)
+renv::remove('butcher')
+renv::purge('butcher', prompt = FALSE)
+renv::remove('lobstr')
+renv::purge('lobstr', prompt = FALSE)
+renv::restore()
