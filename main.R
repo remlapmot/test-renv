@@ -1,3 +1,4 @@
+if (!requireNamespace('renv')) install.packages('renv')
 renv::init(bare = TRUE)
 renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
 renv::snapshot(type = 'all', confirm = FALSE)
