@@ -1,0 +1,5 @@
+if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')
+renv::remove(c('butcher', 'lobstr'))
+renv::purge('butcher', prompt = FALSE)
+renv::purge('lobstr', prompt = FALSE)
+renv::deactivate()
