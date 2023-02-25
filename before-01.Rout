@@ -1,0 +1,32 @@
+
+R version 4.2.2 Patched (2022-11-10 r83330) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')
+> renv::remove(c('butcher', 'lobstr'))
+* Removing package(s) from library '~/R/x86_64-pc-linux-gnu-library/4.2' ...
+* Package 'butcher' is not installed -- nothing to do.
+* Package 'lobstr' is not installed -- nothing to do.
+* Done! Removed 0 packages.
+> renv::purge('butcher', prompt = FALSE)
+* The requested package is not installed in the cache -- nothing to do.
+> renv::purge('lobstr', prompt = FALSE)
+* The requested package is not installed in the cache -- nothing to do.
+> renv::deactivate()
+> 
+> proc.time()
+   user  system elapsed 
+  0.229   0.330   0.568 
