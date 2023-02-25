@@ -17,27 +17,36 @@ Type 'q()' to quit R.
 
 [Previously saved workspace restored]
 
-> if (!requireNamespace('renv')) install.packages('renv')
-Loading required namespace: renv
+> if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')
 > renv::init(bare = TRUE)
 * Project '/mnt/c/users/tom/documents/github/test-renv' loaded. [renv 0.16.0]
 > renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
+* Querying repositories for available source packages ... Done!
+Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/butcher_0.1.5.tar.gz' ...
+	OK [downloaded 176.1 Kb in 1.6 secs]
+Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/lobstr_1.1.1.tar.gz' ...
+	OK [file is up to date]
+Installing lobstr [1.1.1] ...
+	OK [installed binary]
+Moving lobstr [1.1.1] into the cache ...
+	OK [moved to cache in 0.49 seconds]
 Installing butcher [0.1.5] ...
-	OK [linked cache]
+	OK [installed binary]
+Moving butcher [0.1.5] into the cache ...
+	OK [moved to cache in 0.52 seconds]
 > renv::snapshot(type = 'all', confirm = FALSE)
 * Lockfile written to '/mnt/c/users/tom/documents/github/test-renv/renv.lock'.
-> renv::remove('butcher')
+> renv::remove(c('butcher', 'lobstr'))
 * Removing package(s) from project library ...
 Removing package 'butcher' ... Done!
+Removing package 'lobstr' ... Done!
+* Done! Removed 2 packages.
 > renv::purge('butcher', prompt = FALSE)
 The following packages will be purged from the cache:
 
 	butcher 0.1.5 [Hash: 47c3d6eac8256c88c0be7bd5c1cbc5d4]
 
 * Removed 1 package from the cache.
-> renv::remove('lobstr')
-* Removing package(s) from project library ...
-Removing package 'lobstr' ... Done!
 > renv::purge('lobstr', prompt = FALSE)
 The following packages will be purged from the cache:
 
@@ -47,26 +56,26 @@ The following packages will be purged from the cache:
 > renv::restore(prompt = FALSE)
 The following package(s) will be updated:
 
-# CRAN ===============================
+# RSPM ===============================
 - butcher   [* -> 0.1.5]
 - lobstr    [* -> 1.1.1]
 
 * Querying repositories for available source packages ... Done!
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/butcher/butcher_0.1.5.tar.gz' ...
-	OK [file is up to date]
+	OK [downloaded 283.4 Kb in 0.5 secs]
 Retrieving 'https://cran.rstudio.com/src/contrib/Archive/lobstr/lobstr_1.1.1.tar.gz' ...
 	OK [file is up to date]
 Installing lobstr [1.1.1] ...
 	OK [built from source]
 Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.47 seconds]
+	OK [moved to cache in 0.62 seconds]
 Installing butcher [0.1.5] ...
 	OK [built from source]
 Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.52 seconds]
+	OK [moved to cache in 0.55 seconds]
 > library(butcher)
 > library(lobstr)
 > 
 > proc.time()
    user  system elapsed 
- 15.742  11.252  60.262 
+ 16.580  12.264  69.182 
