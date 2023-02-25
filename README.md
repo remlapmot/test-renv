@@ -11,6 +11,7 @@ R CMD BATCH main.R
 or if that's already been run and you need to run again run
 
 ```bash
+rm .RData
 rm -r ~/.cache/R/renv
 rm -r ./renv/library/R-4.2/x86_64-pc-linux-gnu/
 R CMD BATCH before.R
@@ -20,6 +21,7 @@ R CMD BATCH main.R
 And for the second test.
 
 ```bash
+rm .RData
 rm -r ~/.cache/R/renv
 rm -r ./renv/library/R-4.2/x86_64-pc-linux-gnu/
 R CMD BATCH before.R
