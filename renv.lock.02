@@ -9,10 +9,6 @@
       {
         "Name": "RSPM",
         "URL": "https://packagemanager.posit.co/cran/2021-06-29"
-      },
-      {
-        "Name": "RSPM2",
-        "URL": "https://packagemanager.posit.co/cran/2023-02-22"
       }
     ]
   },
