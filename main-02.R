@@ -1,6 +1,6 @@
 if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')
 renv::init(bare = TRUE)
-options(repos = c(CRAN = "https://cran.rstudio.com", RSPM = "https://packagemanager.posit.co/cran/2021-06-29")
+options(repos = c(CRAN = "https://cran.rstudio.com", RSPM = "https://packagemanager.posit.co/cran/2021-06-29"))
 getOption("repos")
 renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
 renv::snapshot(type = 'all', confirm = FALSE)
