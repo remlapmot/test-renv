@@ -17,7 +17,7 @@ Type 'q()' to quit R.
 
 > if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')
 > renv::init(bare = TRUE)
-* Project '/mnt/c/users/tom/Documents/GitHub/test-renv' loaded. [renv 0.16.0]
+* Project '~/GitHub/test-renv' loaded. [renv 0.17.0]
 > options(repos = c(CRAN = "https://cran.rstudio.com", RSPM = "https://packagemanager.posit.co/cran/2021-06-29"))
 > getOption("repos")
                                              CRAN 
@@ -27,263 +27,263 @@ Type 'q()' to quit R.
 > renv::install('butcher@0.1.5', repos = "https://packagemanager.posit.co/cran/2021-06-29", type = "source")
 * Querying repositories for available source packages ... Done!
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/butcher_0.1.5.tar.gz' ...
-	OK [downloaded 176.1 Kb in 0.9 secs]
+	OK [downloaded 176.1 Kb in 0.6 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/fs_1.5.0.tar.gz' ...
-	OK [downloaded 738.7 Kb in 0.6 secs]
+	OK [downloaded 738.7 Kb in 1.2 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/lobstr_1.1.1.tar.gz' ...
-	OK [downloaded 796.7 Kb in 1.1 secs]
+	OK [downloaded 796.7 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/crayon_1.4.1.tar.gz' ...
-	OK [downloaded 133.5 Kb in 0.6 secs]
+	OK [downloaded 133.5 Kb in 0.58 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/Rcpp_1.0.6.tar.gz' ...
-	OK [downloaded 4 Mb in 0.8 secs]
+	OK [downloaded 4 Mb in 0.96 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/rlang_0.4.11.tar.gz' ...
-	OK [downloaded 1.3 Mb in 0.6 secs]
+	OK [downloaded 1.3 Mb in 0.68 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/purrr_0.3.4.tar.gz' ...
-	OK [downloaded 417 Kb in 0.6 secs]
+	OK [downloaded 417 Kb in 1.9 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/magrittr_2.0.1.tar.gz' ...
-	OK [downloaded 225.7 Kb in 0.6 secs]
+	OK [downloaded 225.7 Kb in 0.84 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/tibble_3.1.2.tar.gz' ...
-	OK [downloaded 791.8 Kb in 0.6 secs]
+	OK [downloaded 791.8 Kb in 0.61 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/ellipsis_0.3.2.tar.gz' ...
-	OK [downloaded 39.3 Kb in 0.5 secs]
+	OK [downloaded 39.3 Kb in 1.5 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/fansi_0.5.0.tar.gz' ...
-	OK [downloaded 274.4 Kb in 0.6 secs]
+	OK [downloaded 274.4 Kb in 0.89 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/lifecycle_1.0.0.tar.gz' ...
-	OK [downloaded 91.1 Kb in 0.6 secs]
+	OK [downloaded 91.1 Kb in 0.63 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/glue_1.4.2.tar.gz' ...
-	OK [downloaded 141 Kb in 0.6 secs]
+	OK [downloaded 141 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/pillar_1.6.1.tar.gz' ...
-	OK [downloaded 986.1 Kb in 0.6 secs]
+	OK [downloaded 986.1 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/cli_2.5.0.tar.gz' ...
-	OK [downloaded 507.7 Kb in 0.6 secs]
+	OK [downloaded 507.7 Kb in 1.3 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/utf8_1.2.1.tar.gz' ...
-	OK [downloaded 232 Kb in 0.6 secs]
+	OK [downloaded 232 Kb in 1.3 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/vctrs_0.3.8.tar.gz' ...
-	OK [downloaded 1.5 Mb in 0.7 secs]
+	OK [downloaded 1.5 Mb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/pkgconfig_2.0.3.tar.gz' ...
-	OK [downloaded 17 Kb in 0.5 secs]
+	OK [downloaded 17 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/usethis_2.0.1.tar.gz' ...
-	OK [downloaded 686.2 Kb in 0.6 secs]
+	OK [downloaded 686.2 Kb in 0.66 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/clipr_0.7.1.tar.gz' ...
-	OK [downloaded 46.3 Kb in 0.6 secs]
+	OK [downloaded 46.3 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/curl_4.3.2.tar.gz' ...
-	OK [downloaded 884.1 Kb in 0.6 secs]
+	OK [downloaded 884.1 Kb in 0.66 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/desc_1.3.0.tar.gz' ...
-	OK [downloaded 516.4 Kb in 0.6 secs]
+	OK [downloaded 516.4 Kb in 0.73 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/R6_2.5.0.tar.gz' ...
-	OK [downloaded 80.4 Kb in 0.7 secs]
+	OK [downloaded 80.4 Kb in 1.1 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/rprojroot_2.0.2.tar.gz' ...
-	OK [downloaded 94.8 Kb in 0.6 secs]
+	OK [downloaded 94.8 Kb in 0.56 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/gert_1.3.1.tar.gz' ...
-	OK [downloaded 271.7 Kb in 0.6 secs]
+	OK [downloaded 271.7 Kb in 0.61 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/askpass_1.1.tar.gz' ...
-	OK [downloaded 23.3 Kb in 0.6 secs]
+	OK [downloaded 23.3 Kb in 0.76 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/sys_3.4.tar.gz' ...
-	OK [downloaded 53.8 Kb in 0.6 secs]
+	OK [downloaded 53.8 Kb in 1.3 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/credentials_1.3.0.tar.gz' ...
-	OK [downloaded 167.8 Kb in 0.6 secs]
+	OK [downloaded 167.8 Kb in 0.56 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/openssl_1.4.4.tar.gz' ...
-	OK [downloaded 1.4 Mb in 0.7 secs]
+	OK [downloaded 1.4 Mb in 0.87 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/jsonlite_1.7.2.tar.gz' ...
-	OK [downloaded 523.2 Kb in 0.6 secs]
+	OK [downloaded 523.2 Kb in 0.61 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/rstudioapi_0.13.tar.gz' ...
-	OK [downloaded 267.3 Kb in 0.7 secs]
+	OK [downloaded 267.3 Kb in 1.3 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/zip_2.2.0.tar.gz' ...
-	OK [downloaded 622.1 Kb in 0.7 secs]
+	OK [downloaded 622.1 Kb in 1.2 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/gh_1.3.0.tar.gz' ...
-	OK [downloaded 133.5 Kb in 0.6 secs]
+	OK [downloaded 133.5 Kb in 0.59 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/gitcreds_0.1.1.tar.gz' ...
-	OK [downloaded 91.1 Kb in 0.6 secs]
+	OK [downloaded 91.1 Kb in 0.59 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/httr_1.4.2.tar.gz' ...
-	OK [downloaded 486.9 Kb in 0.6 secs]
+	OK [downloaded 486.9 Kb in 0.63 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/mime_0.11.tar.gz' ...
-	OK [downloaded 36.2 Kb in 0.5 secs]
+	OK [downloaded 36.2 Kb in 0.54 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/ini_0.3.1.tar.gz' ...
-	OK [downloaded 12.8 Kb in 0.5 secs]
+	OK [downloaded 12.8 Kb in 1.2 second]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/rappdirs_0.3.3.tar.gz' ...
-	OK [downloaded 46.5 Kb in 0.6 secs]
+	OK [downloaded 46.5 Kb in 0.86 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/whisker_0.4.tar.gz' ...
-	OK [downloaded 64.5 Kb in 0.5 secs]
+	OK [downloaded 64.5 Kb in 0.59 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/withr_2.4.2.tar.gz' ...
-	OK [downloaded 201.7 Kb in 0.6 secs]
+	OK [downloaded 201.7 Kb in 0.8 seconds]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/yaml_2.2.1.tar.gz' ...
-	OK [downloaded 277.2 Kb in 0.6 secs]
+	OK [downloaded 277.2 Kb in 0.6 seconds]
 Installing fs [1.5.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.26 seconds]
 Moving fs [1.5.0] into the cache ...
-	OK [moved to cache in 0.5 seconds]
+	OK [moved to cache in 3.7 milliseconds]
 Installing crayon [1.4.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.14 seconds]
 Moving crayon [1.4.1] into the cache ...
-	OK [moved to cache in 0.39 seconds]
+	OK [moved to cache in 3.6 milliseconds]
 Installing Rcpp [1.0.6] ...
-	OK [installed binary]
+	OK [installed binary in 0.81 seconds]
 Moving Rcpp [1.0.6] into the cache ...
-	OK [moved to cache in 11 seconds]
+	OK [moved to cache in 5.8 milliseconds]
 Installing rlang [0.4.11] ...
-	OK [installed binary]
+	OK [installed binary in 0.17 seconds]
 Moving rlang [0.4.11] into the cache ...
-	OK [moved to cache in 0.58 seconds]
+	OK [moved to cache in 6 milliseconds]
 Installing lobstr [1.1.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.17 seconds]
 Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.44 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing magrittr [2.0.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving magrittr [2.0.1] into the cache ...
-	OK [moved to cache in 0.55 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing purrr [0.3.4] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving purrr [0.3.4] into the cache ...
-	OK [moved to cache in 0.65 seconds]
+	OK [moved to cache in 3 milliseconds]
 Installing ellipsis [0.3.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving ellipsis [0.3.2] into the cache ...
-	OK [moved to cache in 0.41 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing fansi [0.5.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving fansi [0.5.0] into the cache ...
-	OK [moved to cache in 0.43 seconds]
+	OK [moved to cache in 3 milliseconds]
 Installing glue [1.4.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving glue [1.4.2] into the cache ...
-	OK [moved to cache in 0.72 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing lifecycle [1.0.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving lifecycle [1.0.0] into the cache ...
-	OK [moved to cache in 0.77 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing cli [2.5.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving cli [2.5.0] into the cache ...
-	OK [moved to cache in 0.6 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing utf8 [1.2.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving utf8 [1.2.1] into the cache ...
-	OK [moved to cache in 0.64 seconds]
+	OK [moved to cache in 3 milliseconds]
 Installing vctrs [0.3.8] ...
-	OK [installed binary]
+	OK [installed binary in 0.2 seconds]
 Moving vctrs [0.3.8] into the cache ...
-	OK [moved to cache in 0.96 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing pillar [1.6.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.16 seconds]
 Moving pillar [1.6.1] into the cache ...
-	OK [moved to cache in 0.68 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing pkgconfig [2.0.3] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving pkgconfig [2.0.3] into the cache ...
-	OK [moved to cache in 0.41 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing tibble [3.1.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.17 seconds]
 Moving tibble [3.1.2] into the cache ...
-	OK [moved to cache in 0.73 seconds]
+	OK [moved to cache in 3.2 milliseconds]
 Installing clipr [0.7.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving clipr [0.7.1] into the cache ...
-	OK [moved to cache in 0.5 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing curl [4.3.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.2 seconds]
 Moving curl [4.3.2] into the cache ...
-	OK [moved to cache in 0.54 seconds]
+	OK [moved to cache in 3.1 milliseconds]
 Installing R6 [2.5.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving R6 [2.5.0] into the cache ...
-	OK [moved to cache in 0.38 seconds]
+	OK [moved to cache in 3.9 milliseconds]
 Installing rprojroot [2.0.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving rprojroot [2.0.2] into the cache ...
-	OK [moved to cache in 0.54 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing desc [1.3.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving desc [1.3.0] into the cache ...
-	OK [moved to cache in 0.38 seconds]
+	OK [moved to cache in 2.7 milliseconds]
 Installing sys [3.4] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving sys [3.4] into the cache ...
-	OK [moved to cache in 0.43 seconds]
+	OK [moved to cache in 2.7 milliseconds]
 Installing askpass [1.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.1 seconds]
 Moving askpass [1.1] into the cache ...
-	OK [moved to cache in 0.4 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing openssl [1.4.4] ...
-	OK [installed binary]
+	OK [installed binary in 0.23 seconds]
 Moving openssl [1.4.4] into the cache ...
-	OK [moved to cache in 0.56 seconds]
+	OK [moved to cache in 3.3 milliseconds]
 Installing jsonlite [1.7.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving jsonlite [1.7.2] into the cache ...
-	OK [moved to cache in 0.56 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing credentials [1.3.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving credentials [1.3.0] into the cache ...
-	OK [moved to cache in 0.45 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing rstudioapi [0.13] ...
-	OK [installed binary]
+	OK [installed binary in 0.12 seconds]
 Moving rstudioapi [0.13] into the cache ...
-	OK [moved to cache in 0.68 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing zip [2.2.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.15 seconds]
 Moving zip [2.2.0] into the cache ...
-	OK [moved to cache in 0.55 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing gert [1.3.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving gert [1.3.1] into the cache ...
-	OK [moved to cache in 0.44 seconds]
+	OK [moved to cache in 3.2 milliseconds]
 Installing gitcreds [0.1.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving gitcreds [0.1.1] into the cache ...
-	OK [moved to cache in 0.44 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing mime [0.11] ...
-	OK [installed binary]
+	OK [installed binary in 0.1 seconds]
 Moving mime [0.11] into the cache ...
-	OK [moved to cache in 0.37 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing httr [1.4.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving httr [1.4.2] into the cache ...
-	OK [moved to cache in 0.7 seconds]
+	OK [moved to cache in 3.1 milliseconds]
 Installing ini [0.3.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving ini [0.3.1] into the cache ...
-	OK [moved to cache in 0.51 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing gh [1.3.0] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving gh [1.3.0] into the cache ...
-	OK [moved to cache in 0.56 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing rappdirs [0.3.3] ...
-	OK [installed binary]
+	OK [installed binary in 0.1 seconds]
 Moving rappdirs [0.3.3] into the cache ...
-	OK [moved to cache in 0.47 seconds]
+	OK [moved to cache in 2.7 milliseconds]
 Installing whisker [0.4] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving whisker [0.4] into the cache ...
-	OK [moved to cache in 0.58 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing withr [2.4.2] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving withr [2.4.2] into the cache ...
-	OK [moved to cache in 0.63 seconds]
+	OK [moved to cache in 2.8 milliseconds]
 Installing yaml [2.2.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.13 seconds]
 Moving yaml [2.2.1] into the cache ...
-	OK [moved to cache in 0.55 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 Installing usethis [2.0.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.15 seconds]
 Moving usethis [2.0.1] into the cache ...
-	OK [moved to cache in 1.2 seconds]
+	OK [moved to cache in 3.1 milliseconds]
 Installing butcher [0.1.5] ...
-	OK [installed binary]
+	OK [installed binary in 0.11 seconds]
 Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.62 seconds]
+	OK [moved to cache in 3 milliseconds]
+* Installed 41 packages in 6.7 seconds.
 > renv::snapshot(type = 'all', confirm = FALSE)
 The following package(s) will be updated in the lockfile:
 
 # CRAN ===============================
 - KernSmooth    [* -> 2.23-20]
-- MASS          [* -> 7.3-58.2]
 - Matrix        [* -> 1.5-3]
 - class         [* -> 7.3-21]
 - cluster       [* -> 2.1.4]
 - codetools     [* -> 0.2-19]
 - lattice       [* -> 0.20-45]
-- mgcv          [* -> 1.8-41]
+- mgcv          [* -> 1.8-42]
 - nlme          [* -> 3.1-162]
 - nnet          [* -> 7.3-18]
 - rpart         [* -> 4.1.19]
@@ -291,6 +291,7 @@ The following package(s) will be updated in the lockfile:
 - survival      [* -> 3.5-3]
 
 # RSPM ===============================
+- MASS          [* -> 7.3-58.3]
 - R6            [* -> 2.5.0]
 - Rcpp          [* -> 1.0.6]
 - askpass       [* -> 1.1]
@@ -322,7 +323,7 @@ The following package(s) will be updated in the lockfile:
 - pkgconfig     [* -> 2.0.3]
 - purrr         [* -> 0.3.4]
 - rappdirs      [* -> 0.3.3]
-- renv          [* -> 0.16.0]
+- renv          [* -> 0.17.0]
 - rlang         [* -> 0.4.11]
 - rprojroot     [* -> 2.0.2]
 - rstudioapi    [* -> 0.13]
@@ -337,16 +338,19 @@ The following package(s) will be updated in the lockfile:
 - zip           [* -> 2.2.0]
 
 The version of R recorded in the lockfile will be updated:
-- R             [*] -> [4.2.2]
+- R             [* -> 4.2.2]
 
-* Lockfile written to '/mnt/c/users/tom/Documents/GitHub/test-renv/renv.lock'.
+* Lockfile written to '~/GitHub/test-renv/renv.lock'.
 > file.copy("renv.lock", "renv.lock.02", overwrite = TRUE)
 [1] TRUE
 > renv::remove(c('butcher', 'lobstr'))
 * Removing package(s) from project library ...
 Removing package 'butcher' ... Done!
 Removing package 'lobstr' ... Done!
-* Done! Removed 2 packages.
+* Done! Removed 2.
+Warning message:
+In base::sprintf(fmt, ...) :
+  one argument not used by format '* Done! Removed %s.'
 > renv::purge('butcher', prompt = FALSE)
 The following packages will be purged from the cache:
 
@@ -374,15 +378,15 @@ The following package(s) will be updated:
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/butcher_0.1.5.tar.gz' ...
 	OK [file is up to date]
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2021-06-29/src/contrib/lobstr_1.1.1.tar.gz' ...
-	OK [downloaded 796.7 Kb in 0.6 secs]
+	OK [downloaded 796.7 Kb in 0.67 seconds]
 Installing lobstr [1.1.1] ...
-	OK [installed binary]
+	OK [installed binary in 0.22 seconds]
 Moving lobstr [1.1.1] into the cache ...
-	OK [moved to cache in 0.42 seconds]
+	OK [moved to cache in 3 milliseconds]
 Installing butcher [0.1.5] ...
-	OK [installed binary]
+	OK [installed binary in 0.14 seconds]
 Moving butcher [0.1.5] into the cache ...
-	OK [moved to cache in 0.71 seconds]
+	OK [moved to cache in 2.9 milliseconds]
 > options(repos = c(CRAN = "https://cran.rstudio.com", RSPM = "https://packagemanager.posit.co/cran/2021-06-29", RSPM2 = "https://packagemanager.posit.co/cran/2023-02-22"))
 > getOption("repos")
                                              CRAN 
@@ -393,18 +397,19 @@ Moving butcher [0.1.5] into the cache ...
 "https://packagemanager.posit.co/cran/2023-02-22" 
 > renv::install('digest', repos = "https://packagemanager.posit.co/cran/2023-02-22")
 Retrieving 'https://packagemanager.posit.co/cran/__linux__/focal/2023-02-22/src/contrib/digest_0.6.31.tar.gz' ...
-	OK [downloaded 194.9 Kb in 2.2 secs]
+	OK [downloaded 194.9 Kb in 2 seconds]
 Installing digest [0.6.31] ...
-	OK [installed binary]
+	OK [installed binary in 0.15 seconds]
 Moving digest [0.6.31] into the cache ...
-	OK [moved to cache in 0.85 seconds]
+	OK [moved to cache in 3 milliseconds]
+* Installed 1 package in 0.16 seconds.
 > renv::snapshot(type = 'all', confirm = FALSE)
 The following package(s) will be updated in the lockfile:
 
 # RSPM ===============================
 - digest   [* -> 0.6.31]
 
-* Lockfile written to '/mnt/c/users/tom/Documents/GitHub/test-renv/renv.lock'.
+* Lockfile written to '~/GitHub/test-renv/renv.lock'.
 > file.copy("renv.lock", "renv.lock.02.a", overwrite = TRUE)
 [1] TRUE
 > renv::remove(c('digest'))
@@ -424,15 +429,15 @@ The following package(s) will be updated:
 
 * Querying repositories for available source packages ... Done!
 Retrieving 'https://cran.rstudio.com/src/contrib/digest_0.6.31.tar.gz' ...
-	OK [downloaded 159.7 Kb in 0.3 secs]
+	OK [downloaded 159.7 Kb in 0.26 seconds]
 Installing digest [0.6.31] ...
-	OK [built from source]
+	OK [built from source in 3.1 seconds]
 Moving digest [0.6.31] into the cache ...
-	OK [moved to cache in 0.87 seconds]
+	OK [moved to cache in 3.4 milliseconds]
 > library(butcher)
 > library(lobstr)
 > library(digest)
 > 
 > proc.time()
    user  system elapsed 
- 17.602  23.279 156.656 
+ 14.224   1.874  62.137 

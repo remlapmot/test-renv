@@ -20,7 +20,14 @@ Type 'q()' to quit R.
 * Removing package(s) from library '~/R/x86_64-pc-linux-gnu-library/4.2' ...
 * Package 'butcher' is not installed -- nothing to do.
 * Package 'lobstr' is not installed -- nothing to do.
-* Done! Removed 0 packages.
+* Done! Removed 0.
+Warning messages:
+1: In file(con, "rb") :
+  cannot open file '/home/tom/R/x86_64-pc-linux-gnu-library/4.2/butcher/DESCRIPTION': No such file or directory
+2: In file(con, "rb") :
+  cannot open file '/home/tom/R/x86_64-pc-linux-gnu-library/4.2/lobstr/DESCRIPTION': No such file or directory
+3: In base::sprintf(fmt, ...) :
+  one argument not used by format '* Done! Removed %s.'
 > renv::purge('butcher', prompt = FALSE)
 * The requested package is not installed in the cache -- nothing to do.
 > renv::purge('lobstr', prompt = FALSE)
@@ -29,4 +36,4 @@ Type 'q()' to quit R.
 > 
 > proc.time()
    user  system elapsed 
-  0.191   0.009   0.210 
+  0.112   0.051   0.157 
